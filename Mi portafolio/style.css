@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 100vw;
+height: 100vh;
+background-color: #4a4c5c;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header{
+  background-image: url(Images/banerinicial.jpeg);
+}
+
+.header-section {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(49, 49, 65);
+    display: flex;  
+    justify-content: space-between;
+    align-items:center;
+}
+
+header > img {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+  border-radius: 20%;
+}
+header > nav {
+  width: 15rem;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2.5%;
+  background-color: antiquewhite;
+  align-items: first baseline;
+  list-style: none;
+}
+main{
+  width: 100%;
+  height: 77%;
+  background-image: url(Images/bannerinicial1.jpeg);
+  background-size: cover;
+  background-repeat:repeat-x;
+}
+.perfil {
+  width: 15%;
+  height: 40%;
+  display: flex;
+  transform: translate(0.5rem);
+  float: right;
+  margin-right: 6%;
+}
+.texto1 {
+  font-size: 1.5rem;
+  color: white;
+  font-family:unset;
+  text-shadow: 3px 3px black;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 12%;
+  }
+  .texto3 {
+    font-size: 1.5rem;
+    color: white;
+    font-family:unset;
+    text-shadow: 3px 3px black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-right: 10%;
+
+  }
+.ima {
+  width: 18%;
+  display: flex;
+  transform: translate(0.5rem);
+  float: left;
+  margin-left: 2%;
+  margin-top: 10%;
+}
+.titulo {
+text-decoration: underline;
+color:aliceblue;
+font-size: 3rem;
+font-family:unset;
+text-shadow: 3px 3px black;
+}
+main > img {
+  width: 12rem;
+  height: 12rem;
+  margin: 1rem;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  }
+  .texto2 {
+    width: 80%;
+    display: flex;
+    margin: 5rem;
+    color: white;
+    font-family:unset;
+    text-shadow: 3px 3px black;
+  }
+  .dominio1 {
+    width: 14vw;
+    height: 14vh;
+    margin-bottom: 2%;
+  }
+footer{ 
+  width: 100%;
+  height: 8%;
+  background-color: rgb(49, 49, 65);
+  text-align: center;
+  background-image: url(Images/banerinicial.jpeg);
+}
+
+.textop {
+  color:aliceblue;
+  font-size: 20px;
+  margin-left: 1%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 1%;
+}
+.textop > img {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  background-color: rgb(131, 131, 208);
+  }
+  .card {
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    border: double 6px;
+    border-radius: 10px;
+    color: antiquewhite;
+    margin-left: 60%;
+    margin-top: -29%;
+    font-size: 1.2rem;
+    font-family: unset;
+    text-align: center;
+  }
+
+  .card > img {
+    width: 9rem;
+  height: 9rem;
+  display: flex;
+  align-items: center
+  }
+  .card2{
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+    border: double 6px;
+    border-radius: 10px;
+    color: antiquewhite;
+    margin-left: 15%;
+    font-size: 1.2rem;
+    font-family: unset;
+  }
+  .card2 > img {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    background-color: rgb(131, 131, 208);
+  }
+.titulos2 > img {
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+}
+h4 {
+  font-size: 1.2rem;
+  color: white;
+  font-family:unset;
+  text-shadow: 3px 3px black;
+}
+.what {
+  width: 10vw;
+  height: 10vh;
+  margin: 2rem;
+  margin-left: 45%;
+}
+
+.redes > img {
+  background-color: rgb(131, 131, 208);
+}
+.dominio {
+  width: 10vw;
+  height: 10vh;
+  margin: 1rem;
+  background-color: rgb(131, 131, 208);
+}
+.banner {
+  pointer-events: all;
+}
+.redes {
+  text-align: center;
+}
+.dominio{
+  align-items: center;
+  margin-left: 45%;
+}
+.text {
+  color: antiquewhite;
+  padding: 1em;
+  margin-right: 0%;
+}
+
+.form-group {
+  margin-block: 2rem;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7), inset 0
+  0 10px 10px rgba(0, 0, 0, .7);  
+  text-decoration-line: underline;
+}
